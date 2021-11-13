@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/IM_2006780/static/css/main.22058125.chunk.css",
-    "main.js": "/IM_2006780/static/js/main.252e8272.chunk.js",
-    "main.js.map": "/IM_2006780/static/js/main.252e8272.chunk.js.map",
+    "main.css": "/IM_2006780/static/css/main.791dec33.chunk.css",
+    "main.js": "/IM_2006780/static/js/main.5cc18fb0.chunk.js",
+    "main.js.map": "/IM_2006780/static/js/main.5cc18fb0.chunk.js.map",
     "runtime-main.js": "/IM_2006780/static/js/runtime-main.c266b116.js",
     "runtime-main.js.map": "/IM_2006780/static/js/runtime-main.c266b116.js.map",
     "static/js/2.9bc98f54.chunk.js": "/IM_2006780/static/js/2.9bc98f54.chunk.js",
     "static/js/2.9bc98f54.chunk.js.map": "/IM_2006780/static/js/2.9bc98f54.chunk.js.map",
     "index.html": "/IM_2006780/index.html",
-    "static/css/main.22058125.chunk.css.map": "/IM_2006780/static/css/main.22058125.chunk.css.map",
+    "static/css/main.791dec33.chunk.css.map": "/IM_2006780/static/css/main.791dec33.chunk.css.map",
     "static/js/2.9bc98f54.chunk.js.LICENSE.txt": "/IM_2006780/static/js/2.9bc98f54.chunk.js.LICENSE.txt",
     "static/media/printer.module.css": "/IM_2006780/static/media/PressStart2P-Regular.5f45b521.ttf",
     "static/media/home.module.css": "/IM_2006780/static/media/imageArt.aa7768a7.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.c266b116.js",
     "static/js/2.9bc98f54.chunk.js",
-    "static/css/main.22058125.chunk.css",
-    "static/js/main.252e8272.chunk.js"
+    "static/css/main.791dec33.chunk.css",
+    "static/js/main.5cc18fb0.chunk.js"
   ]
 }
