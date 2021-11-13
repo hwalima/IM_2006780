@@ -1,0 +1,33 @@
+@font-face {
+	font-family: mainFont;
+	src: url(../fonts/PressStart2P-Regular.ttf)
+}
+.printcontainer {
+    background-color: black;
+    color: #03A062;
+    font-family: mainFont;
+    padding-left: 2px;
+  }
+  .button {
+    color: #03A062;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .button:focus,
+  .button:hover,
+  .button.selected {
+    color: black;
+    background-color: #03A062;
+  }
+  .hr {
+    border: none;
+    background-color: #03A062;
+    height: 1px;
+  }
+  .h1 {
+    font-size: 100%;
+    margin: 0;
+    font-family: mainFont;
+  }
+  

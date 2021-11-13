@@ -1,0 +1,60 @@
+{
+  "homepage": "https://hwalima.github.io/IM_2006780",
+  "name": "internetart",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "98.css": "^0.1.17",
+    "@bigfan/art": "^1.1.0",
+    "@emotion/react": "^11.5.0",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@use-gesture/react": "^10.1.4",
+    "clean-git": "^2.1.0",
+    "draggable": "^4.2.0",
+    "lodash-es": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-draggable": "^4.4.4",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-recompose": "^0.31.1",
+    "react-router-dom": "^6.0.1",
+    "react-scripts": "^4.0.3",
+    "react-spring": "^9.3.0",
+    "stats.js": "^0.17.0",
+    "three": "^0.134.0",
+    "web-vitals": "^1.1.2",
+    "xp.css": "^0.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
