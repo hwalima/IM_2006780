@@ -37,6 +37,16 @@
     perspective: 1000px;
     
 }
+h2{
+ 
+    margin-top:0;
+    text-align: center;
+  }
+  p{
+    margin-top:0;
+    text-align: center;
+   
+  }
 .container {
     position: relative;
     display: grid;

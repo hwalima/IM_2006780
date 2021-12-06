@@ -1,0 +1,125 @@
+.fat {
+    font-family: "PT Serif", serif;
+    font-size: 14px;
+    margin: 0px;
+    background-image: url(../Images/paper.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .left-blurb {
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-style: italic;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .right-blurb {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  
+  .right-blurb h3 {
+    margin: 0px 0px 5px 0px;
+  }
+  
+  h1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 50px;
+    margin: 0;
+    padding: 0 20px;
+    font-family: Balthazar, serif;
+    font-weight: 400;
+    letter-spacing: -1px;
+    /* text-transform: uppercase; */
+  }
+  
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  .header-wrapper {
+    border-bottom: 2px solid black;
+  }
+  .header {
+    padding: 0 10px 10px;
+    margin: 40px auto 0px;
+  }
+  
+  .separator {
+    margin-top: 1px;
+    border-top: 1px solid black;
+    border-bottom: 1px dotted black;
+    font-size: 1px;
+  }
+  
+  .article {
+    line-height: 20px;
+    padding: 10px 10px 20px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-family: "Crimson Text";
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px 0px 10px;
+    line-height: 1em;
+  }
+  
+  .article.promoted h2 {
+    font-size: 2em;
+  }
+  
+  .article p {
+    margin: 5px 0 10px;
+  }
+  
+  .page {
+    margin: 10px 20px;
+  }
+  
+  @media (min-width: 600px) {
+    div.page {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1024px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 10px;
+    }
+    div.article {
+      max-width: calc(50% - 20px);
+      margin: 10px 10px 40px;
+      padding: 0;
+    }
+    .article-group {
+      max-width: calc(50% - 20px);
+    }
+    .article-group div.article {
+      max-width: none;
+    }
+  }
+  
+  ul {
+    margin: 5px 0px 10px;
+  }
+  

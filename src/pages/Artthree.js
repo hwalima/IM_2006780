@@ -1,29 +1,30 @@
 import React from "react";
-import ArtthreeCSS from '../CSS/internetArt3.module.css'
+import "../CSS/xpstyle.css";
 import { Link } from "react-router-dom";
+import Desktop from "../components/desktop";
+import Taskbar from "../components/taskbar/Taskbar";
 
-
-
-function Artthree() {
+export default function Artthree() {
   return (
-      
-    <div>
-     <div className={ArtthreeCSS.window}>
-  <div claaName={ArtthreeCSS.logo}>
-    <p className={ArtthreeCSS.top}>Microsoft</p>
-    <p className={ArtthreeCSS.mid}>Windows<span>XP</span></p>
-    <p className={ArtthreeCSS.bottom}>Professional</p>
-  </div>
-  <div className={ArtthreeCSS.container}>
-    <div className={ArtthreeCSS.box}></div>
-    <div className={ArtthreeCSS.box}></div>
-    <div className={ArtthreeCSS.box}></div>
-  </div>
-</div>
-<section className={ArtthreeCSS.prev}><Link to="/Arttwo">Prev</Link></section>
-    <section className={ArtthreeCSS.next}><Link to="/Artfour">Next</Link></section> 
+    <div className="App">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/AjWgWONuHEI"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <Desktop />
+      <Taskbar />
+
+      <section class="prev">
+        <Link to="/Arttwo">Prev</Link>
+      </section>
+      <section class="next">
+        <Link to="/Artfour">Next</Link>
+      </section>
     </div>
   );
 }
-
-export default Artthree;

@@ -1,9 +1,10 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
    
-    overflow: hidden;
+    
   }
   
   .center {
@@ -15,7 +16,7 @@
   }
   
   .circle {
-    background-color: rgb(0, 0, 0);
+    background-color: #FFFF00;
     width: 200px;
     height: 200px;
     border-radius: 100px;
@@ -57,7 +58,7 @@
   .food {
     width: 20px;
     height: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: #FFFF00;
     border-radius: 10px;
     animation-name: food;
     animation-timing-function: linear;

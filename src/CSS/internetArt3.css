@@ -1,0 +1,52 @@
+.whole-thing{
+  background : url('http://i.imgur.com/2ooeIyu.jpg') no-repeat;
+  background-size:cover;
+  height:700px;
+  width:100%;
+}
+.nav-tr{
+  background-color:#2355d8;
+  position:absolute;
+  top:700px;
+  width:100%;
+  height:40px;
+}
+.start{
+  padding-top:2px;
+  background-color:#106711;
+  font-weight:600;
+  height:40px;
+  width:130px;
+  font-size:25px;
+  color:#fff;
+  border-top-right-radius:12px;
+  border-bottom-right-radius:12px;
+  border-right:1px solid #444;
+}
+.icons{
+  padding-top:10px;
+  color:#fff;
+  background-color:#13a2ff;
+  height:39px;
+  width:200px;
+  border-left:1px solid #333;
+}
+.icons ul{
+  list-style-type:none;
+}
+.icons ul li{
+  display:inline;
+  margin-left:8px;
+}
+.desktop-icon{
+  color:#fff;
+  font-size:13px;
+}
+.desktop-icon img{
+  margin-left:10px;
+}
+.desktop-icon p{
+  background-color:rgba(0,0,0,0.5);
+  padding:2px;
+  text-align:center;
+}
