@@ -35,7 +35,7 @@ body { padding-top: 50px; font-family: 'mainFont'; }
 		  border-radius: 50%;
 		  bottom: 5px;
 		  left: calc(50% - 2px);
-		  background: #03A062;
+		  background: lime;
 		  will-change: transform;
 		  transform: scale(0);
 		  transition: transform 0.2s ease; }
@@ -66,8 +66,8 @@ body { padding-top: 50px; font-family: 'mainFont'; }
 	border-bottom-width: 1px;
 	border-top-style:ridge;
 	border-bottom-style: ridge;
-	border-top-color: #03A062;
-	border-bottom-color: #03A062;
+	border-top-color: lime;
+	border-bottom-color: lime;
 	
 	transform: scale(1, 1);
 		}

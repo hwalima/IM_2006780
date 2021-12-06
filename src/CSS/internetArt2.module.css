@@ -86,7 +86,7 @@
     color: #ffffff;
 }
 .prev a:hover, .next a:hover {
-    background: #03A062;
+    background: lime;
 }
 .prev a {
     left: 0.7em;

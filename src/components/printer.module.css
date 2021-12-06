@@ -4,12 +4,12 @@
 }
 .printcontainer {
     background-color: black;
-    color: #03A062;
+    color: lime;
     font-family: mainFont;
     padding-left: 2px;
   }
   .button {
-    color: #03A062;
+    color: lime;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -18,11 +18,11 @@
   .button:hover,
   .button.selected {
     color: black;
-    background-color: #03A062;
+    background-color: lime;
   }
   .hr {
     border: none;
-    background-color: #03A062;
+    background-color: lime;
     height: 1px;
   }
   .h1 {

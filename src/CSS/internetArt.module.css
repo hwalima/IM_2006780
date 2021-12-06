@@ -13,7 +13,7 @@
     color: #ffffff;
 }
 .prev a:hover, .next a:hover {
-    background: #03A062;
+    background: lime;
 }
 .prev a {
     left: 0.7em;
@@ -2622,7 +2622,7 @@ h2{
 .vr_layer_item {
     width: 70%;
     height: 70%;
-    border: 3px solid #03A062;
+    border: 3px solid lime;
     border-radius: 100%;
     background: rgba(0, 0, 0, 0.05);
     animation: sphere 3000ms cubic-bezier(0.215, 0.61, 0.355, 1) alternate infinite, color 5000ms linear alternate infinite;
@@ -2641,7 +2641,7 @@ h2{
 }
 @keyframes color {
     0% {
-        border-color: #03A062;
+        border-color: lime;
    }
     50% {
         border-color: #F8E5E5;

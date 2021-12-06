@@ -122,10 +122,10 @@
 	 border: none;
 }
  .btn:hover {
-	 background-color: #03A062;
+	 background-color: lime;
 }
  .btn:focus {
-	 outline: 1px dashed #03A062;
+	 outline: 1px dashed lime;
 	 outline-offset: 3px;
 }
  @media (hover: hover) and (min-width: 600px) {
@@ -171,7 +171,7 @@
 	color: #ffffff;
   }
   .prev a:hover, .next a:hover {
-	background: #03A062;
+	background: lime;
   }
   .prev a {
 	left: 0.7em;
