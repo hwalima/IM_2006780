@@ -1,5 +1,5 @@
 .Window {
-    position: absolute;
+    position: relative;
   
     box-shadow: rgb(0, 0, 0) -1px -1px 0px inset,
       rgb(195, 199, 203) 1px 1px 0px inset, rgb(134, 138, 142) -2px -2px 0px inset,

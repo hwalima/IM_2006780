@@ -64,7 +64,7 @@ function Blogs() {
             </p>
             <button class="btn">
               {" "}
-              <Link to="/BlogOne">Read more</Link>
+              <Link to="/BlogFive">Read more</Link>
             </button>
           </div>
         </div>
@@ -77,7 +77,7 @@ function Blogs() {
             </p>
             <button class="btn">
               {" "}
-              <Link to="/BlogTwo">Read more</Link>
+              <Link to="/BlogSix">Read more</Link>
             </button>
           </div>
         </div>
@@ -87,7 +87,7 @@ function Blogs() {
             <p class="copy">Rotating the shape about the y axis was two-dimensional and boring.</p>
             <button class="btn">
               {" "}
-              <Link to="/BlogThree">Read more</Link>
+              <Link to="/BlogSeven">Read more</Link>
             </button>
           </div>
         </div>
@@ -99,7 +99,7 @@ function Blogs() {
             </p>
             <button class="btn">
               {" "}
-              <Link to="/BlogFour">Read more</Link>
+              <Link to="/BlogEight">Read more</Link>
             </button>
           </div>
         </div>

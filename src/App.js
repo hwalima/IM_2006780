@@ -13,6 +13,10 @@ import BlogOne from "./pages/BlogOne";
 import BlogTwo from "./pages/BlogTwo";
 import BlogThree from "./pages/BlogThree";
 import BlogFour from "./pages/BlogFour";
+import BlogFive from "./pages/BlogFive";
+import BlogSix from "./pages/BlogSix";
+import BlogSeven from "./pages/BlogSeven";
+import BlogEight from "./pages/BlogEight";
 
 function App() {
   return (
@@ -31,6 +35,10 @@ function App() {
           <Route path="/BlogTwo" element={<BlogTwo />}></Route>
           <Route path="/BlogThree" element={<BlogThree />}></Route>
           <Route path="/BlogFour" element={<BlogFour />}></Route>
+          <Route path="/BlogFive" element={<BlogFive />}></Route>
+          <Route path="/BlogSix" element={<BlogSix />}></Route>
+          <Route path="/BlogSeven" element={<BlogSeven />}></Route>
+          <Route path="/BlogEight" element={<BlogEight />}></Route>
         </Routes>
       </BrowserRouter>
     </>
