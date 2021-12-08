@@ -44,7 +44,9 @@ export default class Window extends React.Component {
           apear on each other in Windows 95.
           <br />I know you will try and drag this window away. Sorry you can't coz your windows always had that glitch. Welcome to Nostalgic suffering.{" "}
         </div>
+        
       </div>
+      
     );
   }
 }

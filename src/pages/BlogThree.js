@@ -13,14 +13,14 @@ function BlogThree() {
       <header>Blog Three</header>
       <hr />
       <span>
-        Size, perspective- large objects, when you make them too 3D, you
+        <p>Size, perspective- large objects, when you make them too 3D, you
         dimensionalize them too much, they appear tiny, so you have to be
-        careful about things like that.
-        <span> Bryan Singer</span>
+        careful about things like that:<br /><br />Bryan Singer.</p>
+        
       </span>
       <br />
       <br />
-      <br />
+    
       <section>
         <h1>Technical reflection</h1>
 

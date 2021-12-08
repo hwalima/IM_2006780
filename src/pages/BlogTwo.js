@@ -10,14 +10,14 @@ function BlogTwo() {
       <header>Blog Two</header>
       <hr />
       <span>
-        The technological explosion of this last half-century, and the implied
+        <p>The technological explosion of this last half-century, and the implied
         future are overwhelming, man is running the machines of his own
         invention… while the machine that is man… runs the risk of running
-        wild.F
-        <span> Stan VanDerBeek</span>
+        wild:<br/><br/>Stan VanDerBeek</p>
+        
 
       </span>
-      <br/><br/><br/>
+      <br/><br/>
       <section>
         <h1>C3: A collection of artwork</h1>
 

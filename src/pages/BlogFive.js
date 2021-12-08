@@ -2,109 +2,151 @@ import React from "react";
 import "../CSS/blog.css";
 import { Link } from "react-router-dom";
 
-import digital from "../Images/digital.jpg";
-
+import digital from "../Images/hemingway.png";
+import Angus from "../Images/angus.jpg";
+import Code from "../Images/code.jpeg";
+import Andrew from "../Images/andrew.png";
 function BlogFive() {
   return (
     <div>
       <header>Blog Five</header>
       <hr />
-      <span>
-        It is time to get organized, focused, and determined to make online
-        education more equitable and accessible.
-        <span> Correia, Ana-Paula</span>
+      <span style={{ textAlign: "center" }}>
+        <p>
+          All the best writers . . . have been amongst the flagrant flouters.
+          :Steven Pinker.
+        </p>
       </span>
       <br />
       <br />
-      <br />
+
       <section>
-        <h1>The Digital divide Widens </h1>
-        <p>From the office of the Institute of internet & justice </p>
+        <h1> Code, Art?... in JavaScrip</h1>
+        <p>If Hemingway wrote JavaScript... </p>
         <br />
         <p>
-          Notwithstanding the fact that the covid-19 pandemic caught the entire
-          world ill prepared, the western medical system had been built for many
-          years against the backbone of the affordance s of digital access. The
-          National health system in the United Kingdom has been building the
-          telehealth system. Besides having these affordances, the digital
-          divide is still evident. For example, according to the 2018 Broadband
-          Deployment Report, only 69.3% of rural areas and 64.6% of tribal areas
-          had access to high-speed broadband internet that met the minimum
-          benchmark set by the Federal Communications Commission (FCC). <br />{" "}
-          <br />
+          For a long time, software development languages designers have pursued
+          to match the naturality of the written and spoken word, especially in
+          the English language. Quality management standards like the
+          BS5740/ISO9001, a key technology for Europe since 1990 have been
+          dominantly used as yardsticks to measure the quality of programming
+          language. This again is based on English-centric ideologies and
+          standards. The relevance of BS5750/ISO9001 is limited and suggests
+          that standards bodies must develop and endorse standards that ensure
+          that software quality improvement programs are within the
+          English-centric ideas, a trajectory that excludes many technology
+          communities around the world. continue to be adopted by the
+          information technology industry.
+          <br /> <br />
         </p>
-        <h2>A brief History</h2>
-        <div class="vid">
-          <iframe
-            width="360"
-            height="315"
-            src="https://www.youtube.com/embed/ounC6NHCu0k"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+        <h2>(Croll, 2014) </h2>
+        <img src={Angus} />
+        <p>
+          In If Hemingway wrote JavaScript, (Croll, 2014) writes hilariously and
+          beautifully while presenting thought-provoking facts that call for
+          scholarly engagement. Croll puts forward that there exist the domains
+          of natural language and the JavaScript domain, which both have no
+          dominant paradigms. From the global south, the question arises: what
+          is natural, and which “natural language” paradigm dominates the other
+          paradigms?
+        </p>
+        <iframe
+          width="380"
+          height="315"
+          src="https://www.youtube.com/embed/G1fFCnjThCQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
 
         <p>
-          In their reflection, Tataki and Glyno highlight the impact of COVID-19
-          on vulnerable employees by equating the lack of a university degree to
-          increased chances of retrenchment. Moreover, these low-income earners
-          usually do not have sufficient data to work from home, and their
-          children do not have the data to study from home. What this means is
-          that the whole family is plunged deeper into poverty when the parents
-          cannot work and the children cannot study, bringing into reality the
-          old saying “the richer get richer and the poorer get poorer” <br />
+          Let us then reject the dry and narrow confines of computer science
+          classes, Croll encourages. Form and creativity seem to supersede
+          functionality and predictability in JavaScript. I prose to concur with
+          Croll, like social sciences, the aspects of culture and liberal arts
+          are often sidelined when it comes to the whys and whats of developing
+          programming languages and the technology industries at large. Scholars
+          in the social sciences discipline for example, might be more
+          open-minded in technology solution development, the same way artist
+          might be. <br />
           <br />
         </p>
-        <h2>Social distancing.</h2>
+        <h2>Excluding the artist</h2>
         <p>
-          Reflecting on the effects of social distancing, this meant that people
-          who rely on manual work like construction workers could not travel or
-          do their work. Once again, these are the low-income earners who are
-          affected.
+          The history-long exclusion of the artist from the code for example has
+          had scholars whispering again. When the users of Blender as a 3D
+          sculpting software are excluded from the development of the software,
+          the effects might be rigid and limiting software presented to the
+          artist. generative reproduction is the use of initial affordances and
+          constraints of computer software in the reproduction of art. This
+          concept situates the computer as the primary tool available to produce
+          a body of artifacts, diverse from each other yet somehow linked
+          together as if it were with a fundamental DNA structure. Although the
+          production of artifacts might be from the same software, the
+          underlying differences from one version to another are brought by the
+          agency that the artists who use the software have.
         </p>
-        <div class="vid">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/yFvlZ4zzz8M"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+        <img src={Code} />
 
         <p>
-          The October 2021 issue of PC mag highlights concerns that the
-          installation of the new windows 11, whether from an ISO file, upgrade,
-          or otherwise, requires a stable internet connection. Not only
-          defeating Microsoft's matra on inclusivity, but such software
-          requirement also widens the digital divide. It seems here Microsoft
-          threw the bathing water of its mantra out of the window, together with
-          their baby they named “a PC for every child”.
+          The written code in programming languages behind the software then
+          becomes a systematic structure for art. The plasticity of the software
+          that manifests through appropriate hardware can be manipulated to
+          produce artifacts that draw from a striking resemblance of a painters'
+          hand, the grain of the canvas, and the brush strokes. Most art
+          inclined software seeks to resemble the artist’s pre-electronic era
+          (Verostko, 1990). By outlining the prerequisites (software and
+          hardware) of the generative reproduction of art, we begin to raise
+          salient questions about the writing and writers of the code which then
+          produces the software.
+        </p>
+        <p>
+          In the same manner, Ernest Hemingway’s style of writing seeks to
+          provoke the user to fill the vacuum that is left by a style devoid of
+          emotions, JavaScript seeks to invite the programmer to fill the
+          source-code editor with lines of artistic code, lines of ‘let’s break
+          the barrier’ experimentations.
+          <img src={Andrew} />
+        </p>
+        <p>
+          How far can the JavaScript artist be creative, within the confines of
+          an English language drive programming language is the question. So,
+          JavaScript breaks, and frameworks start supporting it. Why wouldn’t
+          the world’s programmers nt throw it away why would they support
+          something that was erratic? I guess the answer is: because of the
+          artistic nature of the language.
+        </p>
+        <iframe
+          width="380"
+          height="300"
+          src="https://www.youtube.com/embed/MBmmZADfVSQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h2>From Hemingway to Shakespeare</h2>
+        <p>
+          By adding dramatic emphasis to written work, William Shakespeare often
+          deviated from strict writing. His works often filled the dramatic
+          emphasis for the reader, inviting all senses and drawing the reader to
+          an imagination continuum. There is heavy levity in Shakespeare’s
+          works, as there is in JavaScript.
         </p>
         <img src={digital} />
         <p>
-          In a continent where schools, hospitals, and even police stations do
-          not have internet connectivity. Such development by the software giant
-          further widens the digital divide.
+          The way JavaScript mitigates code conflict is similar to the manner
+          Shakespeare channelled plays and poems and towards an expected end,
+          using humorous supporting acts.
         </p>
         <h2>Bibliography.</h2>
 
-        <p>
-          Azubuike, O.B., Adegboye, O. and Quadri, H., 2021. Who gets to learn
-          in a pandemic? Exploring the digital divide in remote learning during
-          the COVID-19 pandemic in Nigeria. International Journal of Educational
-          Research Open, 2, p.100022.
-        </p>
+        <p>Croll, A., 2014. If Hemingway wrote JavaScript. No Starch Press.</p>
 
         <p>
-          Tataki, M. and Glynos, D. 2020 ‘Digital Divide Widens’, p. 6. Can My
-          PC Run Windows 11? (no date) PCMAG. Available at:
-          https://www.pcmag.com/news/can-my-pc-run-windows-11 (Accessed: 12
-          October 2021).
+          Verostko, R., 1990. Epigenetic painting: software as genotype.
+          Leonardo, 23(1), pp.17-23.
         </p>
       </section>
       <div clas="prev">

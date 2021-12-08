@@ -10,13 +10,14 @@ function BlogOne() {
       <header>Blog One</header>
       <hr />
       <span>
-        It is time to get organized, focused, and determined to make online
-        education more equitable and accessible.
-        <span> Correia, Ana-Paula</span>
+        <p>It is time to get organized, focused, and determined to make online
+        education more equitable and accessible:<br />
+      <br /> Correia, Ana-Paula </p>
+       
       </span>
       <br />
       <br />
-      <br />
+     
       <section>
         <h1>The Digital divide Widens </h1>
         <p>From the office of the Institute of internet & justice </p>

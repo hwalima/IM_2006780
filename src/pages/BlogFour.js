@@ -13,11 +13,11 @@ function BlogFour() {
       <header>Blog Four</header>
       <hr />
       <span>
-        First we thought the PC was a calculator. Then we found out how to turn
+        <p>First we thought the PC was a calculator. Then we found out how to turn
         numbers into letters with ASCII- and thought it was a typewritter. Then
         we discovered graphics, and thought it was a television. With the World
-        Wide Web, we've realised its a brochure.
-        <span>Douglas Adams</span>
+        Wide Web, we've realised its a brochure:<br /><br /> Douglas Adams</p>
+       
       </span>
       <br />
       <br />

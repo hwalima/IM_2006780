@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Contactus from "./pages/Contactus";
@@ -21,7 +21,7 @@ import BlogEight from "./pages/BlogEight";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
@@ -40,7 +40,7 @@ function App() {
           <Route path="/BlogSeven" element={<BlogSeven />}></Route>
           <Route path="/BlogEight" element={<BlogEight />}></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }

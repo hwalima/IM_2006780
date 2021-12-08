@@ -53,14 +53,14 @@ function Blogs() {
             </button>
           </div>
         </div>
-      </main>
+      
 
-      <main class="page-content">
+      
         <div class="card">
           <div class="content">
-            <h2 class="title">Digital Divide Widens...</h2>
+            <h2 class="title">Code, Art?... in JavaScript</h2>
             <p class="copy">
-              From the office of the Institute of internet & justice{" "}
+            If Hemingway wrote JavaScript... {" "}
             </p>
             <button class="btn">
               {" "}
@@ -103,7 +103,7 @@ function Blogs() {
             </button>
           </div>
         </div>
-      </main>
+        </main>
     </div>
   );
 }
