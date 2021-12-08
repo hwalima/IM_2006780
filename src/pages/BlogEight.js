@@ -18,7 +18,7 @@ function BlogEight() {
       <br />
       <br />
       <section>
-        <h1>The Digital divide Widens </h1>
+        <h1>Project Technical reflection</h1>
         <p>From the office of the Institute of internet & justice </p>
         <br />
         <p>

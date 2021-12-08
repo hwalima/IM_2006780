@@ -1,74 +1,43 @@
 import React from "react";
 import "../CSS/blog.css";
 import { Link } from "react-router-dom";
-
+import videoGames from "../Images/videoGames.jpg";
 import digital from "../Images/digital.jpg";
-
+import arcade from "../Images/arcade.jpg";
 function BlogSeven() {
   return (
     <div>
       <header>Blog Seven</header>
       <hr />
       <span>
-        It is time to get organized, focused, and determined to make online
-        education more equitable and accessible.
-        <span> Correia, Ana-Paula</span>
+        <p>
+          Retro gives rise to feelings of nostalgia and missing the old times:
+          Ronit Cytheria
+        </p>
       </span>
       <br />
       <br />
-      <br />
+
       <section>
-        <h1>The Digital divide Widens </h1>
-        <p>From the office of the Institute of internet & justice </p>
+        <h1>Retro art</h1>
+        <p>Bringing a nolstagic expirience in the contemporal art space </p>
         <br />
         <p>
-          Notwithstanding the fact that the covid-19 pandemic caught the entire
-          world ill prepared, the western medical system had been built for many
-          years against the backbone of the affordance s of digital access. The
-          National health system in the United Kingdom has been building the
-          telehealth system. Besides having these affordances, the digital
-          divide is still evident. For example, according to the 2018 Broadband
-          Deployment Report, only 69.3% of rural areas and 64.6% of tribal areas
-          had access to high-speed broadband internet that met the minimum
-          benchmark set by the Federal Communications Commission (FCC). <br />{" "}
+          This website project is an attempt to bring a nostalgic experience by
+          collecting various internet and digital artifacts and experiences into
+          the contemporary space. While retro gamers often acted as private
+          collectors of games as artifacts, contemporary gaming culture is fast
+          favoring a constant exchange, storage, discussion, and manipulation of
+          information about games past and present. This website pursues to
+          showcase how such a collection and curation space could exist. <br />{" "}
           <br />
         </p>
-        <h2>A brief History</h2>
-        <div class="vid">
-          <iframe
-            width="360"
-            height="315"
-            src="https://www.youtube.com/embed/ounC6NHCu0k"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-
-        <p>
-          In their reflection, Tataki and Glyno highlight the impact of COVID-19
-          on vulnerable employees by equating the lack of a university degree to
-          increased chances of retrenchment. Moreover, these low-income earners
-          usually do not have sufficient data to work from home, and their
-          children do not have the data to study from home. What this means is
-          that the whole family is plunged deeper into poverty when the parents
-          cannot work and the children cannot study, bringing into reality the
-          old saying “the richer get richer and the poorer get poorer” <br />
-          <br />
-        </p>
-        <h2>Social distancing.</h2>
-        <p>
-          Reflecting on the effects of social distancing, this meant that people
-          who rely on manual work like construction workers could not travel or
-          do their work. Once again, these are the low-income earners who are
-          affected.
-        </p>
+        <h2>Retro artifacts </h2>
         <div class="vid">
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/yFvlZ4zzz8M"
+            src="https://www.youtube.com/embed/JoPiq9GXuqo"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -77,35 +46,55 @@ function BlogSeven() {
         </div>
 
         <p>
-          The October 2021 issue of PC mag highlights concerns that the
-          installation of the new windows 11, whether from an ISO file, upgrade,
-          or otherwise, requires a stable internet connection. Not only
-          defeating Microsoft's matra on inclusivity, but such software
-          requirement also widens the digital divide. It seems here Microsoft
-          threw the bathing water of its mantra out of the window, together with
-          their baby they named “a PC for every child”.
+          (Ordonneau, 2019) argues that the consequences of new media and their
+          manifestations in post-digital arts have deeply modified electronic
+          curation, a concept that is still being built as a parallel structure
+          to the prestigious walls and corridors called museums. The consumption
+          of retro artifacts like a new game console, the first booting of
+          Windows 95, or the first browsing experience of Netscape was
+          associated with “who has it, or who got it first attitude”, and
+          excitement associated with scarcity. <br />
+          <br />
         </p>
-        <img src={digital} />
+        <h2>Old web today</h2>
         <p>
-          In a continent where schools, hospitals, and even police stations do
-          not have internet connectivity. Such development by the software giant
-          further widens the digital divide.
+          A web user born in the year 2000 would not understand what was
+          exciting about these fossil artifacts. I was inspired by a site called
+          “old web today” that takes you back to the days of dial-up internet
+          while using some of the web’s earliest browsers, like Mosaic, Netscape
+          Navigator, and Internet Explorer 3.0.
+          <img src={arcade} />
         </p>
+
+        <p>
+          In his book Game -After a cultural study, Guins (2014) Guins summons
+          us to a train of thought where well-lived memories of arcade gaming
+          and gaming art are catapulted to the digital ecospheres, more often
+          without the documentation of what is lost in the translation. As I
+          capture snippets of some of the retro digital artifacts, I seek to
+          provoke the user into the imagination of what might have been lost in
+          memory. What is still known about the artists?
+        </p>
+
+        <p>
+          This project intends to experiment on the nostalgia created when old
+          and new artifacts blend into each other to create a new aesthetic
+          while capturing the digital experience before the dawn of the new
+          millennium. I want this to be a cut and paste curation of -retro
+          digital media aesthetic. When a user of this website views the Windows
+          95 for example, there is a tendency to mentally compare the snippet of
+          the 1995 based operating system to what they might know better: (a
+          Windows 10 dominated computing world)
+        </p>
+        <img src={videoGames} />
+        
         <h2>Bibliography.</h2>
 
         <p>
-          Azubuike, O.B., Adegboye, O. and Quadri, H., 2021. Who gets to learn
-          in a pandemic? Exploring the digital divide in remote learning during
-          the COVID-19 pandemic in Nigeria. International Journal of Educational
-          Research Open, 2, p.100022.
+          AGuins, R., 2014. Game after: A cultural study of video game afterlife. MIT Press.
         </p>
 
-        <p>
-          Tataki, M. and Glynos, D. 2020 ‘Digital Divide Widens’, p. 6. Can My
-          PC Run Windows 11? (no date) PCMAG. Available at:
-          https://www.pcmag.com/news/can-my-pc-run-windows-11 (Accessed: 12
-          October 2021).
-        </p>
+        
       </section>
       <div clas="prev">
         <Link to="/BlogSix">Prev</Link>

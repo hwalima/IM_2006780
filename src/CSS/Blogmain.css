@@ -90,13 +90,13 @@
 	background-image: url(../Images/hemingway.png);
 }
 .card:nth-child(6):before {
-	background-image: url(../Images/logo2.png);
+	background-image: url(../Images/inderectFlights.jpg);
 }
 .card:nth-child(7):before {
-	background-image: url(../Images/logo2.png);
+	background-image: url(../Images/internetArt.png);
 }
 .card:nth-child(8):before {
-	background-image: url(../Images/logo2.png);
+	background-image: url(../Images/technical.jpg);
 }
 
  .content {

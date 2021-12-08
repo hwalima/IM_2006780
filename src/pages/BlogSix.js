@@ -2,109 +2,113 @@ import React from "react";
 import "../CSS/blog.css";
 import { Link } from "react-router-dom";
 
-import digital from "../Images/digital.jpg";
-
+import digital from "../Images/inderectFlights.jpg";
+import joe from "../Images/joe.jpg";
 function BlogSix() {
   return (
     <div>
       <header>Blog Six</header>
       <hr />
       <span>
-        It is time to get organized, focused, and determined to make online
-        education more equitable and accessible.
-        <span> Correia, Ana-Paula</span>
+        <p>A sprawling landscape of layered images: Joe Hamilton.</p>
       </span>
       <br />
       <br />
-      <br />
+
       <section>
-        <h1>The Digital divide Widens </h1>
-        <p>From the office of the Institute of internet & justice </p>
+        <h1>Indirect flights</h1>
+        <p>Some read it as a piece about dystopia.</p>
         <br />
         <p>
-          Notwithstanding the fact that the covid-19 pandemic caught the entire
-          world ill prepared, the western medical system had been built for many
-          years against the backbone of the affordance s of digital access. The
-          National health system in the United Kingdom has been building the
-          telehealth system. Besides having these affordances, the digital
-          divide is still evident. For example, according to the 2018 Broadband
-          Deployment Report, only 69.3% of rural areas and 64.6% of tribal areas
-          had access to high-speed broadband internet that met the minimum
-          benchmark set by the Federal Communications Commission (FCC). <br />{" "}
-          <br />
+          Joe Hamilton’s ‘Indirect Flights', 2014 is a layered digital
+          topography that one can pan across in a manner like Google Maps.
+          Composing the base landscape with images, textures, and sometimes
+          geography google map landscapes that parallax layer upon layer gives
+          an illusion of depth. A user of this website gets an illusion of a
+          panoramic viewpoint over the entire website.
+          <br /> <br />
         </p>
-        <h2>A brief History</h2>
-        <div class="vid">
-          <iframe
-            width="360"
-            height="315"
-            src="https://www.youtube.com/embed/ounC6NHCu0k"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+        <h2>About the art.</h2>
+
+        <iframe
+          src="https://player.vimeo.com/video/111283426?h=eedd6c642d"
+          width="380"
+          height="350"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <p>
+          <a href="https://vimeo.com/111283426">
+            Joe Hamilton &ndash; Indirect Flights | Exhibition Trailer
+          </a>{" "}
+          from <a href="https://vimeo.com/joehamilton">Joe Hamilton</a> on{" "}
+          <a href="https://vimeo.com">Vimeo</a>.
+        </p>
 
         <p>
-          In their reflection, Tataki and Glyno highlight the impact of COVID-19
-          on vulnerable employees by equating the lack of a university degree to
-          increased chances of retrenchment. Moreover, these low-income earners
-          usually do not have sufficient data to work from home, and their
-          children do not have the data to study from home. What this means is
-          that the whole family is plunged deeper into poverty when the parents
-          cannot work and the children cannot study, bringing into reality the
-          old saying “the richer get richer and the poorer get poorer” <br />
+          Collaging found images of paintings and prints from online
+          collections, Joe Hamilton composed 10 distinct arrangements that
+          connect and cycle through to create a single, cascading piece. The
+          website images collected over a series of Europe, Asia, and the Middle
+          East travel could be regarded as an art gallery, only existing outside
+          the confines of concrete walls and wooden linings of a traditional art
+          gallery. As a user, I felt detached from the natural elements away
+          from the mayhem of humanity, the same feeling one gets when they
+          engage the etiquette inside an art gallery or a library. <br />
           <br />
         </p>
-        <h2>Social distancing.</h2>
+        <h2>Libraries.</h2>
         <p>
-          Reflecting on the effects of social distancing, this meant that people
-          who rely on manual work like construction workers could not travel or
-          do their work. Once again, these are the low-income earners who are
-          affected.
+          Libraries open the windows of the world. As you walk along the shelves
+          looking for those relevant references and trying to match up the Dewey
+          decimal numbers that appeared on the computer catalog screen, you can
+          stumble across other books calling out to be noticed.
         </p>
-        <div class="vid">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/yFvlZ4zzz8M"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
 
         <p>
-          The October 2021 issue of PC mag highlights concerns that the
-          installation of the new windows 11, whether from an ISO file, upgrade,
-          or otherwise, requires a stable internet connection. Not only
-          defeating Microsoft's matra on inclusivity, but such software
-          requirement also widens the digital divide. It seems here Microsoft
-          threw the bathing water of its mantra out of the window, together with
-          their baby they named “a PC for every child”.
+          Perhaps that was what Joe Hamilton intended in this art space, to
+          curate the art in a museum-like space. The eye captures and tries to
+          relate to various images parallax at different speeds. I often paused
+          and tried to search if the image exists in my own memory, or does it
+          have any connotative meaning that I know of. Indirect-Flights could be
+          regarded as a means of historical travel evidence, an art space, where
+          we are provoked to think beyond the familiar shapes of lettering, to
+          look beyond what images of objects are traditionally intended to do.
         </p>
         <img src={digital} />
         <p>
-          In a continent where schools, hospitals, and even police stations do
-          not have internet connectivity. Such development by the software giant
-          further widens the digital divide.
+          I view the art beyond the language it was coded in and dive deeper
+          into what the image might represent and try to find out as much as
+          possible about the construction of each image. The textuality of
+          images collected in the art piece does not necessarily sufficiently
+          capture all the angles of everyday life, but they are sufficient to
+          capture the variety and diversity of the wider internet culture that
+          we live in as digital natives and digital immigrants.
         </p>
-        <h2>Bibliography.</h2>
+        <h2>Reviews.</h2>
 
         <p>
-          Azubuike, O.B., Adegboye, O. and Quadri, H., 2021. Who gets to learn
-          in a pandemic? Exploring the digital divide in remote learning during
-          the COVID-19 pandemic in Nigeria. International Journal of Educational
-          Research Open, 2, p.100022.
+          Exposing the art to friends, some read it as a piece about dystopia, a
+          totalitarian or post-apocalyptic work of art. I simply think that
+          Hamilton intended to make a digital exploration of landscape art
+          traditions, a mixture of painterly marks with a hi-res Photoshop
+          collage of images.
         </p>
 
         <p>
-          Tataki, M. and Glynos, D. 2020 ‘Digital Divide Widens’, p. 6. Can My
-          PC Run Windows 11? (no date) PCMAG. Available at:
-          https://www.pcmag.com/news/can-my-pc-run-windows-11 (Accessed: 12
-          October 2021).
+          The fact that Hamilton collected his own art components and
+          represented them the way he chose speaks of freedom of expression.
+          However, the fact that the research of art involved pre-planned
+          travels which Hamilton takes to finally meticulously layer collage
+          work online as an interactive artwork sends a different message.
+        </p>
+        <img src={joe} />
+        <p>
+          It is not all artists, especially during the covid-19 pandemic, that
+          have the financial privilege of flying around the world to collect
+          satellite images, have time to make a website out of them, and then
+          make an online gallery for the public.
         </p>
       </section>
       <div clas="prev">
