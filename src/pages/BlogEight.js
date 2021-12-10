@@ -2,7 +2,14 @@ import React from "react";
 import "../CSS/blog.css";
 import { Link } from "react-router-dom";
 
-import digital from "../Images/digital.jpg";
+import folders from "../Images/folders.png";
+import structure from "../Images/structure.png";
+import indexHtml from "../Images/indexhtml.png";
+import indexjs from "../Images/indexjs.png";
+import appjs from "../Images/appjs.png";
+import routing from "../Images/routing.png";
+import internetartmodule from "../Images/internetartmodule.png";
+import classname from "../Images/classname.png";
 
 function BlogEight() {
   return (
@@ -10,102 +17,90 @@ function BlogEight() {
       <header>Blog Eight</header>
       <hr />
       <span>
-        It is time to get organized, focused, and determined to make online
-        education more equitable and accessible.
-        <span> Correia, Ana-Paula</span>
+        <p>
+          {" "}
+          We have to stop optimizing for programmers and start optimizing for
+          users: Jeff Atwood"
+        </p>
       </span>
       <br />
-      <br />
+
       <br />
       <section>
         <h1>Project Technical reflection</h1>
-        <p>From the office of the Institute of internet & justice </p>
+        <p>Scope </p>
         <br />
         <p>
-          Notwithstanding the fact that the covid-19 pandemic caught the entire
-          world ill prepared, the western medical system had been built for many
-          years against the backbone of the affordance s of digital access. The
-          National health system in the United Kingdom has been building the
-          telehealth system. Besides having these affordances, the digital
-          divide is still evident. For example, according to the 2018 Broadband
-          Deployment Report, only 69.3% of rural areas and 64.6% of tribal areas
-          had access to high-speed broadband internet that met the minimum
-          benchmark set by the Federal Communications Commission (FCC). <br />{" "}
+          Herein, I will highlight the crucial parts of the technical process of
+          the entire project, not being specific to the four pieces of art since
+          the entire project is an art piece in int own regard. The project has
+          15 .js pages. an addition of theapp.js and the index.js made the total
+          pages 17. In addition, the Index.htm page that houses the root id sits
+          in the public folder.
+          <br /> <br />
+        </p>
+        <h2>Folders</h2>
+        <img src={folders} />
+
+        <h2>The structure</h2>
+        <img src={structure} />
+        <h2>The Index.html</h2>
+        <p>
+          This file is created by default the first time running npm
+          create-react-app my-app
+          <br />
           <br />
         </p>
-        <h2>A brief History</h2>
-        <div class="vid">
-          <iframe
-            width="360"
-            height="315"
-            src="https://www.youtube.com/embed/ounC6NHCu0k"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+        <img src={indexHtml} />
 
         <p>
-          In their reflection, Tataki and Glyno highlight the impact of COVID-19
-          on vulnerable employees by equating the lack of a university degree to
-          increased chances of retrenchment. Moreover, these low-income earners
-          usually do not have sufficient data to work from home, and their
-          children do not have the data to study from home. What this means is
-          that the whole family is plunged deeper into poverty when the parents
-          cannot work and the children cannot study, bringing into reality the
-          old saying “the richer get richer and the poorer get poorer” <br />
+          The same applies to the index.js file
+          <br />
           <br />
         </p>
-        <h2>Social distancing.</h2>
+        <img src={indexjs} />
+        <h2>Major problems encountered.</h2>
         <p>
-          Reflecting on the effects of social distancing, this meant that people
-          who rely on manual work like construction workers could not travel or
-          do their work. Once again, these are the low-income earners who are
-          affected.
+          Next, was the population of the app.js with routing. This was a lot of
+          back and from, as the pages that were not routed correctly could not
+          be reached.
         </p>
-        <div class="vid">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/yFvlZ4zzz8M"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+        <p>
+          The challenge I faced with this page was that BrowserRouter did not
+          render the HTML page on npm start. The same applied when the project
+          was deployed on GitHub. As much as the site was working, a blank page
+          displayed, unless I begin reaching a link. To counter this, I
+          researched and found out that adding the # character to every page by
+          using FHashRouter resolves the issue. My final app.js page looked like
+          this.
+        </p>
+        <img src={appjs} />
 
         <p>
-          The October 2021 issue of PC mag highlights concerns that the
-          installation of the new windows 11, whether from an ISO file, upgrade,
-          or otherwise, requires a stable internet connection. Not only
-          defeating Microsoft's matra on inclusivity, but such software
-          requirement also widens the digital divide. It seems here Microsoft
-          threw the bathing water of its mantra out of the window, together with
-          their baby they named “a PC for every child”.
+          Moving on to the pages. To correctly reach pages, they had to be
+          correctly routed according to the folders that they existed in.
+          Firstly, I wanted to separate blogs from the art pieces, this left the
+          home page and the contact page out. This, although the most
+          recommended way, proved extremely difficult. A folder called pages,
+          blogs, or art will be added by reacting as I navigated in and out of
+          pages. The final routing was as follows:
         </p>
-        <img src={digital} />
+        <img src={routing} />
         <p>
-          In a continent where schools, hospitals, and even police stations do
-          not have internet connectivity. Such development by the software giant
-          further widens the digital divide.
+          <h2>The Pages</h2>
+          The four art pieces run separate codes, CSS styling, and exist as
+          different js files. The challenge I had was styling the pages
+          differently, as an applied style affected the entire project. After
+          digging around, I discovered that the separate CSS stylesheets must be
+          used as modules, especially when elements call for different classes.
+          Having .li or h1 p on different pages was resolved by using modules.
+          Modules then require the use of ClassName as compared to Class. This
+          then creates a unique ID, which cannot be recreated in the entire
+          project.
         </p>
-        <h2>Bibliography.</h2>
-
-        <p>
-          Azubuike, O.B., Adegboye, O. and Quadri, H., 2021. Who gets to learn
-          in a pandemic? Exploring the digital divide in remote learning during
-          the COVID-19 pandemic in Nigeria. International Journal of Educational
-          Research Open, 2, p.100022.
-        </p>
-
-        <p>
-          Tataki, M. and Glynos, D. 2020 ‘Digital Divide Widens’, p. 6. Can My
-          PC Run Windows 11? (no date) PCMAG. Available at:
-          https://www.pcmag.com/news/can-my-pc-run-windows-11 (Accessed: 12
-          October 2021).
-        </p>
+        <h2>CSS modules</h2>
+        <img src={internetartmodule} />
+        <img src={classname} />
       </section>
       <div clas="prev">
         <Link to="/BlogSeven">Prev</Link>

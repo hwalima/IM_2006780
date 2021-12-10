@@ -1,21 +1,21 @@
 import React from "react";
-import contactCSS from "../CSS/contact.module.css";
+import contactCSS from "../CSS/contact.css";
 
 function Contactus() {
   return (
-    <div className={contactCSS.container}>
-      <div className={contactCSS.noise}></div>
-      <div className={contactCSS.overlay}></div>
-      <div className={contactCSS.terminal}>
+    <div class='container1'>
+      <div class="noise"></div>
+      <div class="overlay"></div>
+      <div class="terminal">
         <h1>
-          Error: <span class={contactCSS.errorcode}>No contacts</span>
+          Error: <span class="errorcode">No contacts....</span>
         </h1>
-        <p className={contactCSS.output}>
+        <p class="output">
           {" "}
-          The contacts you desire are unavailable at the moment.
+          Dialup connection fault....
         </p>
-        <p className={contactCSS.output}>
-          Please try to return to the Home page
+        <p class="output">
+          Please connect again after putting down the phone.
         </p>
       </div>
     </div>

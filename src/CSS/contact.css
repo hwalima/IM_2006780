@@ -1,9 +1,9 @@
 
-  .container{
+  .container1{
 	 box-sizing: border-box;
 	 height: 100%;
 	 background-color: #000;
-	 background-image: radial-gradient(lime, #38032017), url("../Images/l8OwMo.gif");
+	 
 	 background-repeat: no-repeat;
 	 background-size: cover;
 	 font-family: 'Inconsolata', Helvetica, sans-serif;
@@ -16,7 +16,7 @@
 	 position: absolute;
 	 width: 100%;
 	 height: 100%;
-	 background-image: url("../Images/l8OwMo.gif");
+	 
 	 background-repeat: no-repeat;
 	 background-size: cover;
 	 z-index: -1;
